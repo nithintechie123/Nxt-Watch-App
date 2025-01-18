@@ -117,9 +117,7 @@ class Home extends Component {
       <HeadingFailure darkMode={darkMode}>
         Oops! Something Went Wrong
       </HeadingFailure>
-      <FailureDescription>
-        We are having some trouble to compare your request. Please Try again.
-      </FailureDescription>
+      <FailureDescription>We are having some trouble</FailureDescription>
       <FailureTryAgain onClick={this.gettingVideos}>Retry</FailureTryAgain>
     </>
   )
